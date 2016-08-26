@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <title>TEST HAHA</title>
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
 <body>
 
-<?php
-echo "My first PHP script!";
-?> 
+<div class="container">
+	<h3 class="text-center">board</h3>
+	<div class="jumbotron">
+		<h2 id="lblCurrentMessage" class="text-center"></h2>
+	</div>
+
+	<div class="form-group">
+		<input type="text" name="txtNewMessage" class="form-control">
+		<button id="btUpdateMessage" class="btn btn-primary">Update</button>
+	</div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script>
+	var lblCurrentMessage = document.getElementById('lblCurrentMessage'),
+		txtNewMessage = document.getElementById('txtNewMessage')
+		btUpdateMessage = document.getElementById('btUpdateMessage'),
+
+
+</script>
 
 </body>
 </html>
+
+
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCC9MJwlRRlhaZ_Og6g0LC9DjU3ISXCzN8",
+    authDomain: "testwebapp-20f08.firebaseapp.com",
+    databaseURL: "https://testwebapp-20f08.firebaseio.com",
+    storageBucket: "",
+  };
+  firebase.initializeApp(config);
+</script>
