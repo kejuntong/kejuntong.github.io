@@ -26,21 +26,15 @@
 		txtNewMessage = document.getElementById('txtNewMessage')
 		btUpdateMessage = document.getElementById('btUpdateMessage'),
 
+		rootRef = new Firebase('https://testwebapp-20f08.firebaseio.com'),
+		currentMessageRef = rootRef.child('currentMessage');
+
+		btUpdateMessage.addEventListener('click', function(){
+			currentMessageRef.set(txtNewMessage.value);
+			txtNewMessage.value = '';
+		});
 
 </script>
 
 </body>
 </html>
-
-
-
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCC9MJwlRRlhaZ_Og6g0LC9DjU3ISXCzN8",
-    authDomain: "testwebapp-20f08.firebaseapp.com",
-    databaseURL: "https://testwebapp-20f08.firebaseio.com",
-    storageBucket: "",
-  };
-  firebase.initializeApp(config);
-</script>
