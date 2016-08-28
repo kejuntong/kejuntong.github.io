@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body onload="main()">
+
+<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+<script>
+
+	var config;
+	var firebaseRef;
+
+
+
+function main(){
+	config = {
+    apiKey: "AIzaSyCC9MJwlRRlhaZ_Og6g0LC9DjU3ISXCzN8",
+    authDomain: "testwebapp-20f08.firebaseapp.com",
+    databaseURL: "https://testwebapp-20f08.firebaseio.com",
+    storageBucket: "testwebapp-20f08.appspot.com",
+  };
+
+    firebaseRef = firebase.initializeApp(config);
+
+    // firebaseRef.database().ref("test").set("1234556");
+}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+
+    firebaseRef.database().ref("test").set("ppppp");
+
+}
+</script>
+
+</body>
+</html>
+
