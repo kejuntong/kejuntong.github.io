@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html>
-<body onload="main()">
+<head>
 
-<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+<meta charset="utf-8">
 
-<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
-
-<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-
-<script>
-
-	var config;
-	var firebaseRef;
-
-
-
-function main(){
-	config = {
-    apiKey: "AIzaSyCC9MJwlRRlhaZ_Og6g0LC9DjU3ISXCzN8",
-    authDomain: "testwebapp-20f08.firebaseapp.com",
-    databaseURL: "https://testwebapp-20f08.firebaseio.com",
-    storageBucket: "testwebapp-20f08.appspot.com",
-  };
-
-    firebaseRef = firebase.initializeApp(config);
-
-    // firebaseRef.database().ref("test").set("1234556");
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
 }
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
-
-    firebaseRef.database().ref("test").set("ppppp");
-
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
 }
-</script>
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<header>
+   <h1>In Progress</h1>
+</header>
+  
+<nav>
+<p style="font-size:160%;">Oct.9</p>
+</nav>
+
+<article>
+  <h1>多伦多 -> 阿岗昆</h1>
+  <a href="day-plan/Oct-9.html">详情（点进去可修改）</a>
+</article>
+
+
+<nav>
+<p style="font-size:160%;">Oct.10</p>
+</nav>
+
+<article>
+  <h1>没弄好</h1>
+  <a href="day-plan/Oct-9.html">详情（点进去可修改）</a>
+</article>
+
+
+<nav>
+<p style="font-size:160%;">Oct.11</p>
+</nav>
+
+<article>
+  <h1>懒得弄</h1>
+  <a href="day-plan/Oct-9.html">详情（点进去可修改）</a>
+</article>
+
+
+<nav>
+<p style="font-size:160%;">Oct.12</p>
+</nav>
+
+<article>
+  <h1>等下弄</h1>
+  <a href="day-plan/Oct-9.html">详情（点进去可修改）</a>
+</article>
+
+<footer>Copyright © kejuntong.com</footer>
+
+</div>
 
 </body>
 </html>
