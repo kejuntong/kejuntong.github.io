@@ -47,10 +47,8 @@ a{
 <div class="container">
 
 <header>
-  <h1>OCT.14</h1>
+  <h1>OCT.22</h1>
 </header>
-
- <li><a href="pdf/hotel_toronto.pdf">酒店</a></li>
 
 <textarea id="input_text" cols="40" rows="20"></textarea>
 
@@ -84,7 +82,7 @@ function init(){
 }
 
 function loadData(){
-  var dayPlanRef = firebase.database().ref("OCT14");
+  var dayPlanRef = firebase.database().ref("OCT22");
   dayPlanRef.on('value', function(snapshot) {
     document.getElementById("input_text").value = snapshot.val();
   });
@@ -92,7 +90,7 @@ function loadData(){
 
 function submit(){
   var text = document.getElementById("input_text").value;
-  firebaseRef.database().ref("OCT14").set(text);
+  firebaseRef.database().ref("OCT22").set(text);
     alert('保存好了也');
 }
 

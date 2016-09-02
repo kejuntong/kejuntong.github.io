@@ -47,10 +47,14 @@ a{
 <div class="container">
 
 <header>
-  <h1>OCT.14</h1>
+  <h1>OCT.15</h1>
 </header>
 
- <li><a href="pdf/hotel_toronto.pdf">酒店</a></li>
+ <li><a href="pdf/air_ticket_toronto_boston.pdf">机票</a></li>
+ <li><a href="pdf/">租车</a></li>
+ <li><a href="pdf/">酒店</a></li>
+ <li><a href="http://bbs.qyer.com/thread-805298-1.html">攻略</a></li>
+
 
 <textarea id="input_text" cols="40" rows="20"></textarea>
 
@@ -84,7 +88,7 @@ function init(){
 }
 
 function loadData(){
-  var dayPlanRef = firebase.database().ref("OCT14");
+  var dayPlanRef = firebase.database().ref("OCT15");
   dayPlanRef.on('value', function(snapshot) {
     document.getElementById("input_text").value = snapshot.val();
   });
@@ -92,7 +96,7 @@ function loadData(){
 
 function submit(){
   var text = document.getElementById("input_text").value;
-  firebaseRef.database().ref("OCT14").set(text);
+  firebaseRef.database().ref("OCT15").set(text);
     alert('保存好了也');
 }
 
