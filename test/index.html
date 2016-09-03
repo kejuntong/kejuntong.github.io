@@ -1,48 +1,110 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <title>TEST HAHA</title>
-  <link rel="stylesheet" href="bootstrap.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>嘿嘿嘿</title>
 </head>
 <body>
+	<header>
+		<a href="#0" class="cd-logo"><img src="img/cd-logo.svg"></a>
+		
+		<button class="cd-nav-trigger">Menu<span aria-hidden="true" class="cd-icon"></span></button>
+	</header>
 
-<div class="container">
-	<h3 class="text-center">board</h3>
-	<div class="jumbotron">
-		<h2 id="lblCurrentMessage" class="text-center"></h2>
-	</div>
+	<nav class="cd-primary-nav">
+		<ul>
+			<li class="cd-label">Navigation</li>
+			<li><a href="#0">苹果</a></li>
+			<li><a href="#0">香蕉</a></li>
+			<li><a href="#0">生梨</a></li>
+			<li><a href="#0">阿五卵</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+	
+	<div class="cd-projects-container">
+		<ul>
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>Test</h2>
+				</div> <!-- .cd-title -->
 
-	<div class="form-group">
-		<input type="text" name="txtNewMessage" class="form-control">
-		<button onclick="pushValue()"
-		id="btUpdateMessage" class="btn btn-primary">Update</button>
-	</div>
+				<div class="cd-project-info">
+					<button class="cd-scroll">Scroll down</button>
+					
+					<div class="content-wrapper">
+						<p>
+							test-1
+						</p>
 
-</div>
+						<p>
+							test-2
+						</p>
 
-<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-<script>
+						<p>
+							test-3
+						</p>
+					</div>
+				</div> <!-- .cd-project-info -->
+			</li>
 
-function pushValue(){
-		var lblCurrentMessage = document.getElementById('lblCurrentMessage'),
-		txtNewMessage = document.getElementById('txtNewMessage')
-		btUpdateMessage = document.getElementById('btUpdateMessage'),
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>Test</h2>
+				</div> <!-- .cd-title -->
 
-		rootRef = new Firebase('https://testwebapp-20f08.firebaseio.com'),
-		currentMessageRef = rootRef.child('currentMessage');
+				<div class="cd-project-info">
+					<button class="cd-scroll">Scroll down</button>
 
-		currentMessageRef.set(txtNewMessage.value);
-		txtNewMessage.value = '';
-}
+					<div class="content-wrapper">
+						<p>
+							Test-1
+						</p>
 
+						<p>
+							Test-2
+						</p>
 
-		// btUpdateMessage.addEventListener('click', function(){
-		// 	currentMessageRef.set(txtNewMessage.value);
-		// 	txtNewMessage.value = '';
-		// });
+						<p>
+							Test-3
+						</p>
+					</div>
+				</div> <!-- .cd-project-info -->
+			</li>
 
-</script>
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>Test</h2>
+				</div> <!-- .cd-title -->
 
+				<div class="cd-project-info">
+					<button class="cd-scroll">Scroll down</button>
+					
+					<div class="content-wrapper">
+						<p>
+							Test-1
+						</p>
+
+						<p>
+							Test-2
+						</p>
+
+						<p>
+							Test-3
+						</p>
+					</div>
+				</div> <!-- .cd-project-info -->
+			</li>
+		</ul>
+	</div> <!-- .cd-projects-container -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
