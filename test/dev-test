@@ -4,22 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic,700' rel='stylesheet' type='text/css'>
+<!-- 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic,700' rel='stylesheet' type='text/css'> -->
 
 	<!-- <link rel="stylesheet" href="css/reset.css">  -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/style.css"> 
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>嘿嘿嘿</title>
 </head>
 <body>
-	<header>
-		<a href="#0" class="cd-logo"><img src="img/cd-logo.svg"></a>
+<!-- 	<header>
 		
 		<button class="cd-nav-trigger">Menu<span aria-hidden="true" class="cd-icon"></span></button>
-	</header>
+	</header> -->
 
-	<nav class="cd-primary-nav">
+<!-- 	<nav class="cd-primary-nav">
 		<ul>
 			<li class="cd-label">Navigation</li>
 			<li><a href="#0">苹果</a></li>
@@ -27,7 +26,7 @@
 			<li><a href="#0">生梨</a></li>
 			<li><a href="#0">阿五卵</a></li>
 		</ul>
-	</nav> <!-- .cd-primary-nav -->
+	</nav>  -->
 	
 	<div class="cd-projects-container">
 		<ul>
@@ -103,33 +102,8 @@
 				</div> <!-- .cd-project-info -->
 			</li>
 
-<!-- 			<li class="single-project">
-				<div class="cd-title">
-					<h2>Tes4</h2>
-				</div> 
-
-				<div class="cd-project-info">
-					<button class="cd-scroll">Scroll down</button>
-					
-					<div class="content-wrapper">
-						<p>
-							Test-1
-						</p>
-
-						<p>
-							Test-2
-						</p>
-
-						<p>
-							Test-3
-						</p>
-					</div>
-				</div> 
-			</li> -->
-
 		</ul>
 	</div> <!-- .cd-projects-container -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+
 </body>
 </html>
