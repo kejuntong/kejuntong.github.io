@@ -304,19 +304,33 @@ button {
   -o-transform: translateZ(0);
   transform: translateZ(0);
 }
-.cd-projects-container .single-project:nth-of-type(2) {
+/*.cd-projects-container .single-project:nth-of-type(2) {
   -webkit-transform: translateY(33.3333333333%);
   -moz-transform: translateY(33.3333333333%);
   -ms-transform: translateY(33.3333333333%);
   -o-transform: translateY(33.3333333333%);
   transform: translateY(33.3333333333%);
+}*/
+.cd-projects-container .single-project:nth-of-type(2) {
+  -webkit-transform: translateY(7.14285714%);
+  -moz-transform: translateY(7.14285714%);
+  -ms-transform: translateY(7.14285714%);
+  -o-transform: translateY(7.14285714%);
+  transform: translateY(7.14285714%);
 }
-.cd-projects-container .single-project:nth-of-type(3) {
+/*.cd-projects-container .single-project:nth-of-type(3) {
   -webkit-transform: translateY(66.6666666667%);
   -moz-transform: translateY(66.6666666667%);
   -ms-transform: translateY(66.6666666667%);
   -o-transform: translateY(66.6666666667%);
   transform: translateY(66.6666666667%);
+}*/
+.cd-projects-container .single-project:nth-of-type(3) {
+  -webkit-transform: translateY(14.2857143%);
+  -moz-transform: translateY(14.2857143%);
+  -ms-transform: translateY(14.2857143%);
+  -o-transform: translateY(14.2857143%);
+  transform: translateY(14.2857143%);
 }
 .cd-projects-container .single-project.selected {
   /* selected project */
@@ -382,7 +396,7 @@ button {
 .cd-title {
   position: relative;
   z-index: 1;
-  height: 33.3333333333%;
+  height: 7.14285714%;
   width: 100vw;
   text-align: center;
   /* vertical align its content */
@@ -394,7 +408,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  height: 300%;
+  height: 1400%;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -404,7 +418,7 @@ button {
   content: '';
   position: absolute;
   left: 50%;
-  top: calc(50% + 30px);
+  top: calc(50% + 15px);
   -webkit-transform: translateX(-50%) translateY(-50%) scaleX(0);
   -moz-transform: translateX(-50%) translateY(-50%) scaleX(0);
   -ms-transform: translateX(-50%) translateY(-50%) scaleX(0);
@@ -435,7 +449,9 @@ button {
 .single-project:nth-of-type(3) .cd-title::before {
   background-image: url(../img/img-3.jpg);
 }
-.single-project:nth-of-type(1) .cd-title::before, .single-project:nth-of-type(2) .cd-title::before, .single-project:nth-of-type(3) .cd-title::before {
+.single-project:nth-of-type(1) .cd-title::before, 
+.single-project:nth-of-type(2) .cd-title::before, 
+.single-project:nth-of-type(3) .cd-title::before {
   background-size: cover;
 }
 .cd-title h2 {
@@ -487,7 +503,7 @@ button {
 }
 @media only screen and (min-width: 1170px) {
   .cd-title h2 {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
   }
 }
 
