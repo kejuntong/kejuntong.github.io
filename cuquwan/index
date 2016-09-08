@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>嘿嘿嘿</title>
+</head>
+<body>
+	<header>
+		
+		<button class="cd-nav-trigger">Menu<span aria-hidden="true" class="cd-icon"></span></button>
+	</header>
+
+	<nav class="cd-primary-nav">
+		<ul>
+			<li class="cd-label">Navigation</li>
+			<li><a href="#0">苹果</a></li>
+			<li><a href="#0">香蕉</a></li>
+			<li><a href="#0">生梨</a></li>
+			<li><a href="#0">阿五卵</a></li>
+		</ul>
+	</nav> 
+	
+	<div class="cd-projects-container">
+		<ul>
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>多伦多 -> 阿岗昆</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.9</p>
+					<a href="day-plan/Oct-9.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>阿岗昆 -> 渥太华</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.10</p>
+					<a href="day-plan/Oct-10.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>渥太华 -> 蒙特利尔</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.11</p>
+					<a href="day-plan/Oct-11.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+						
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>蒙特利尔</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.12</p>
+					<a href="day-plan/Oct-12.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>蒙特利尔 -> 金士顿</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.13</p>
+					<a href="day-plan/Oct-13.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>	
+			
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>金士顿 -> 多伦多</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.14</p>
+					<a href="day-plan/Oct-14.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>	
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>多伦多 -> 波士顿</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.15</p>
+					<a href="day-plan/Oct-105html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>	
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>波士顿</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.16</p>
+					<a href="day-plan/Oct-16.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>波士顿 -> 纽约</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.17</p>
+					<a href="day-plan/Oct-17.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>纽约</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.18</p>
+					<a href="day-plan/Oct-18.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>	
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>纽约</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.19</p>
+					<a href="day-plan/Oct-19.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>纽约 -> 多伦多</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.20</p>
+					<a href="day-plan/Oct-20.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>多伦多</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.21</p>
+					<a href="day-plan/Oct-21.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>多伦多 -> 香港</h2>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-haha">
+					<p>Oct.22</p>
+					<a href="day-plan/Oct-22.html">点我</a>
+				</div> <!-- .cd-title -->
+
+			</li>
+
+		</ul>
+	</div> <!-- .cd-projects-container -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
