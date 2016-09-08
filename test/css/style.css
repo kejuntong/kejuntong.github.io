@@ -393,6 +393,20 @@ button {
   transform: translateY(96%);
 }
 
+.cd-haha {
+  position: fixed;
+  z-index: 4;
+  text-align: center;
+  /*vertical-align: middle;*/
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: "Playfair Display", serif;
+}
+
 .cd-title {
   position: relative;
   z-index: 1;
@@ -521,6 +535,7 @@ button {
   -moz-transition: opacity 0.4s, visibility 0.4s;
   transition: opacity 0.4s, visibility 0.4s;
 }
+
 .cd-project-info::before {
   /* use to push the .content-wrapper below the intro project image */
   content: '';
