@@ -2,6 +2,13 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_bDH2dKI7uuCsoDYNWQ5zP");
+   })();
+</script>
+
 <script>
 // $(document).ready(function(){
 //     $("p").click(function(){
@@ -9,10 +16,14 @@
 //     });
 // });
 $.get("http://ipinfo.io", function(response) {
+
+emailjs.send("kevin","template_verPsBZO",{to_name: "James", message_html: response.ip});
+
     alert(response.ip);
 }, "jsonp");
 
 </script>
+
 </head>
 <body>
 
