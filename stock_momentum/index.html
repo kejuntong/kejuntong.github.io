@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1 class="animated infinite bounce" style="font-size: 40px; margin-top: 15px;">Stock<br>Momentum </h1>
+                        <h1 id="downloadHd" class="animated infinite bounce" style="font-size: 40px; margin-top: 15px;">Stock<br>Momentum </h1>
                         <hr class="small">
                         <span class="subheading">A Free Android App for Technical Stock Analysis</span>
                     </div>
@@ -90,6 +90,12 @@
             </div>
         </div>
     </header>
+
+    <script type="text/javascript">
+      document.getElementById("downloadHd").onclick = function () {
+        location.href = "https://play.google.com/store/apps/details?id=com.momentum.stock.stockanalyzer";
+      };
+    </script>
 
     <!-- Main Content -->
     <div class="container">
