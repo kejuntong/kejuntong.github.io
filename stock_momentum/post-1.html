@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="des test">
-    <meta name="author" content="author test">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>StockMomentum</title>
+    <title>基本面分析 VS 技术分析</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,9 +22,6 @@
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-    <!-- bounce anumation -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,11 +32,6 @@
 </head>
 
 <body>
-
-  <!-- to show image when sharing in WeChat -->
-  <div style='margin:0 auto;display:none;'>
-  <img src='share-img.png' />
-  </div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -77,72 +69,63 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1 id="downloadHd" class="animated infinite bounce" style="font-size: 40px; margin-top: 15px;">Stock<br>Momentum </h1>
-                        <hr class="small">
-                        <span class="subheading">A Free Android App for Technical Stock Analysis</span>
+                    <div class="post-heading">
+                        <h1>基本面分析 VS 技术分析</h1>
+                        <h2 class="subheading">周大师为你解密股票分析</h2>
+                        <span class="meta">Written by <a href="#">Alex Zhou</a> on March 14, 2017</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <script type="text/javascript">
-      document.getElementById("downloadHd").onclick = function () {
-        location.href = "https://play.google.com/store/apps/details?id=com.momentum.stock.stockanalyzer";
-      };
-    </script>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>江湖上的人都说，股票分析界有两大流派。 一个叫做基本面分析派（Fundamental Analysis），一个叫做技术面分析派（Technical Analysis），这两个流派都人数众多，势力滔天，分支繁茂，却向来水火不容。</p>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post-1.html">
-                        <h2 class="post-title">
-                            基本面分析 VS 技术分析
-                        </h2>
-                        <h3 class="post-subtitle">
-                            虽然不明白在说什么，但是好像很厉害的样子
-                        </h3>
+                    <p>基本面的高手讲究的是全面分析上市公司各项金融会计数据量化指标（Quantitative）和质量分析（Qualitative），他们的核心理论是：市场不是有效（Not efficient）的，并不能够准确的对股票进行估价。但是技术面的高手根本对其理论不肖一顾：他们认为市场是有效的（Efficient），现在的价格包含了一切市场信息。所以技术面的人不在乎公司价值，只关心价格浮动，只研究供需关系（Supply and Demand），以此来预测未来市场走势。可以说基本面派是价值投资者而技术面派是价格投资者。</p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/post-1-img-1.png" alt="">
                     </a>
-                    <p class="post-meta">Written by <a href="#">Alex Zhou（我室友）</a> on March 14, 2017</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post-2.html">
-                        <h2 class="post-title">
-                            加载失败
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Loading...
-                        </h3>
+
+                    <p>关于两派到底孰强孰弱，这向来是学术界的一大争论，吵架拌嘴乃至拉场子比划也一直没有消停过。</p>
+
+                                        <a href="#">
+                        <img class="img-responsive" src="img/post-1-img-2.png" alt="">
                     </a>
-                    <p class="post-meta">Written by <a href="#">null</a> </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post-3.html">
-                        <h2 class="post-title">
-                            没写
-                        </h2>
+
+                    <p>一般来说业界以基本面分析为多，而散户界以技术面分析为主。这主要是因为基本面分析需要大量历史数据的比较和分析，以及对整个公司，整个行业，乃至整个市场的反复研究，过程繁琐复杂，对信息质量要求很高，散户信息难以获得。而技术面分析需要数据相对基本面较少，甚至有些只是对近期价格交易量走势分析，便可以达到窥一斑而知全豹的功效。</p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/post-1-img-3.png" alt="">
                     </a>
-                    <p class="post-meta">Written by <a href="#">null</a> </p>
+
+                    <p>也有少数的高手，可以将两派的精髓融会贯通，将技术和基本面的核心在交易中发挥的淋漓尽致。他们中的许多人或许白天为业界交易时用基本面分析，而晚上回到家关起门开始修炼技术分析。</p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/post-1-img-4.png" alt="">
+                    </a>
+
+                    <p>当然，不管是技术面交易还是基本面交易，都抵不过神一般存在的 - - 内幕交易。此君乃是交易界的武林至尊，如能修炼到内幕交易，那技术和基本面都是浮云而已。</p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/post-1-img-5.png" alt="">
+                    </a>
+
+                    <p>在此向各位爱好交易的朋友隆重推出<a href="https://play.google.com/store/apps/details?id=com.momentum.stock.stockanalyzer">StockMomentum 2.0版</a>。新版本增加了Momentum Indicator 以及Momentum Measuring Bar来帮助你更好的掌握市场和个股动向。新的My Portfolio系统也将更好的收录你所关注的股票以便于你随时查看了解新的信息。StockMomentum支持NYSE/S&P 500/NASDAQ/TSX/TSX V。感谢大家的支持，如果有任何建议和意见，请联系 stockmomentum.ca@gamil.com</p>
+
                 </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
             </div>
         </div>
-    </div>
+    </article>
 
     <hr>
 
