@@ -23,7 +23,7 @@ p
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(img/yjxbg.jpg);
+	background: url(img/jnysrc/yjxbg.jpg);
 	background-size: cover;
 }
 
@@ -38,6 +38,7 @@ p
 	font-size: 5em;
 	color: #fff;
 	text-transform: capitalize;
+	font-family: 'KaiTi', '楷体', serif;
 }
 
 .banner .content p
@@ -148,7 +149,7 @@ section
 .row .col50
 {
 	position: relative;
-	width: 48%;
+/*	width: 48%;*/
 }
 
 .titleText
@@ -481,12 +482,15 @@ section
 
 	.row .col50
 	{
-		width: 100%;
+/*		width: 100%;*/
+		flex: 1;
 	}
 
 	.col50 .imgBx
 	{
 		margin-top: 30px;
+		height: 100%;
+		position: absolute;
 	}
 
 	.menu .content
