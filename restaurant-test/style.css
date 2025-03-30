@@ -139,7 +139,7 @@ section
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+/*	padding-bottom: 50px;*/
 }
 
 .row
@@ -345,6 +345,7 @@ section
 {
 	background: url(img/bg3.jpg);
 	background-size: cover;
+	padding-bottom: 50px;
 }
 
 .contactForm
