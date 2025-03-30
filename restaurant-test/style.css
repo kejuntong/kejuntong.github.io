@@ -559,20 +559,20 @@ section
 		margin-top: 20px;
 		margin-bottom: 30px;
 	}
-	.row
+/*	.row
 	{
 		flex-direction: column;
 	}
-
+*/
 	.row .col80
 	{
 		width: 100%;
 	}
 
-	.col20 .imgBx
+	.row .col20 .imgBx
 	{
 /*		margin-top: 30px;*/
         visibility: hidden;
 	}
-	
+
 }
