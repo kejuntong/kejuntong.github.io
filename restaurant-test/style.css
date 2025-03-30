@@ -135,7 +135,10 @@ header .navigation li a:hover
 
 section
 {
-	padding: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .row
@@ -150,6 +153,18 @@ section
 {
 	position: relative;
 	width: 50%;
+}
+
+.row .col80
+{
+	position: relative;
+	width: 80%;
+}
+
+.row .col20
+{
+	position: relative;
+	width: 20%;
 }
 
 
@@ -483,14 +498,15 @@ section
 		flex-direction: column;
 	}
 
-	.row .col50
+	.row .col80
 	{
 		width: 100%;
 	}
 
-	.col50 .imgBx
+	.col20 .imgBx
 	{
-		margin-top: 30px;
+/*		margin-top: 30px;*/
+        visibility: hidden;
 	}
 
 	.menu .content
@@ -543,4 +559,20 @@ section
 		margin-top: 20px;
 		margin-bottom: 30px;
 	}
+	.row
+	{
+		flex-direction: column;
+	}
+
+	.row .col80
+	{
+		width: 100%;
+	}
+
+	.col20 .imgBx
+	{
+/*		margin-top: 30px;*/
+        visibility: hidden;
+	}
+	
 }
