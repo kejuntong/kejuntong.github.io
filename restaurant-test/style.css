@@ -149,8 +149,9 @@ section
 .row .col50
 {
 	position: relative;
-	width: 48%;
+	width: 50%;
 }
+
 
 .titleText
 {
@@ -168,9 +169,11 @@ section
 
 .imgBx img
 {
-	max-width: 100%;
+/*	max-width: 100%;
 	width: 100%;
-	height: auto;
+	height: auto;*/
+	height: 100%;
+	position: absolute;
 }
 
 .title
