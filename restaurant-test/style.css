@@ -59,6 +59,7 @@ p
 	text-decoration: none;
 	letter-spacing: 2px;
 	transition: 0.5s;
+	border-radius: 10px;
 }
 
 .btn:hover
@@ -200,9 +201,9 @@ section
 {
 	display: flex;
 	justify-content: center;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	flex-wrap: wrap;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .menu .content .box
@@ -212,6 +213,10 @@ section
 	border: 15px solid #fff;
 	box-shadow: 0 5px 35px rgba(0,0,0,0.08);
 }
+
+/*.menu .content .a {
+    text-decoration: none;
+}*/
 
 .menu .content .box .imgBx
 {
